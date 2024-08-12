@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #007BFF;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+    color: white;
+    text-align: center;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    background-color: #0056b3;
+}
+
+.main-content {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+.event-bubble {
+    background-color: #f1f1f1;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+    

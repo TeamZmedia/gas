@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Page - Game and Skate</title>
+    <link rel="stylesheet" href="static/css/styles.css">
+</head>
+<body>
+    <div class="sidebar">
+        <a href="index.html">Home</a>
+        <a href="events.html">Events</a>
+        <a href="about.html">About</a>
+        <a href="edit.html">Edit</a>
+    </div>
+    <div class="main-content">
+        <h1>Edit Content</h1>
+        <form action="edit.html" method="post">
+            <label for="homeText">Home Page Text:</label><br>
+            <textarea id="homeText" name="homeText" rows="4" cols="50">Your custom text goes here.</textarea><br><br>
+            
+            <label for="eventsContent">Events Content:</label><br>
+            <textarea id="eventsContent" name="eventsContent" rows="4" cols="50">Description of events.</textarea><br><br>
+            
+            <label for="aboutTextTop">About Page Top Text:</label><br>
+            <textarea id="aboutTextTop" name="aboutTextTop" rows="4" cols="50">Text above the image.</textarea><br><br>
+            
+            <label for="aboutTextBottom">About Page Bottom Text:</label><br>
+            <textarea id="aboutTextBottom" name="aboutTextBottom" rows="4" cols="50">Text below the image.</textarea><br><br>
+
+            <label for="sidebarColor">Sidebar Color:</label><br>
+            <input type="color" id="sidebarColor" name="sidebarColor" value="#007BFF"><br><br>
+            
+            <label for="backgroundColor">Background Color:</label><br>
+            <input type="color" id="backgroundColor" name="backgroundColor" value="#ffffff"><br><br>
+
+            <input type="submit" value="Save Changes">
+        </form>
+        <p>Note: You need to manually update the corresponding HTML files and CSS after editing.</p>
+    </div>
+</body>
+</html>
+    
